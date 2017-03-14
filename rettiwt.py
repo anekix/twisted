@@ -12,8 +12,8 @@ from twisted.web import server,resource
 from twisted.internet import endpoints
 from twisted.web.server import Site
 
-CONSUMER_KEY = 'OxIpUlx3ZrKw8uDox6soFQryw'
-CONSUMER_SECRET = '1h85cvAJSpQ2ZJmDsa7Ky8i3QmzsTgrCTXtla4y2Bl6H3RuTp4'
+CONSUMER_KEY = 'Oxxxxxxxxxxxxxxxxxxxw'
+CONSUMER_SECRET = '1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxp4'
 # TWITTER_STREAM_API_HOST = 'stream.twitter.com'
 # TWITTER_STREAM_API_PATH = '/1.1/statuses/sample.json'
 # TWITTER_STREAM_API_PATH = '/1.1/statuses/filter.json?track=twitter'
@@ -79,8 +79,8 @@ def load_access_token():
 
 
 def fetch_access_token():
-    ACCESS_KEY="840881683188465664-YQ5H8OBybQmpX50dWLSBZZgOBNVYlU3"
-    ACCESS_SECRET="XvkivZeSGm8sbXNnSxtALtmA6SQC8T7xn4lUywAcYwI9t"
+    ACCESS_KEY="8xxxxxxxxxxxxxxxxxxxxxxxxxxxx3"
+    ACCESS_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxt"
     access_token = oauth.Token(key=ACCESS_KEY, secret=ACCESS_SECRET)
     return (access_token.key, access_token.secret)
 
